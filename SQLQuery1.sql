@@ -52,5 +52,10 @@ insert into Roles_Permisos values (1,2,1)
 insert into Roles_Permisos values (1,3,1)
 insert into Roles_Permisos values (1,4,1)
 
+insert into Roles_Permisos values (2,1,0)
+insert into Roles_Permisos values (2,2,1)
+insert into Roles_Permisos values (2,3,0)
+insert into Roles_Permisos values (2,4,0)
+
 
 

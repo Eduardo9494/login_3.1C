@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alumno\\Desktop\\login_C#\\login_C#\\login_C#.csproj": {}
+    "C:\\Users\\Alumno\\Desktop\\login_3.1C\\login_C#\\login_C#.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alumno\\Desktop\\login_C#\\login_C#\\login_C#.csproj": {
+    "C:\\Users\\Alumno\\Desktop\\login_3.1C\\login_C#\\login_C#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alumno\\Desktop\\login_C#\\login_C#\\login_C#.csproj",
+        "projectUniqueName": "C:\\Users\\Alumno\\Desktop\\login_3.1C\\login_C#\\login_C#.csproj",
         "projectName": "login_C#",
-        "projectPath": "C:\\Users\\Alumno\\Desktop\\login_C#\\login_C#\\login_C#.csproj",
+        "projectPath": "C:\\Users\\Alumno\\Desktop\\login_3.1C\\login_C#\\login_C#.csproj",
         "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alumno\\Desktop\\login_C#\\login_C#\\obj\\",
+        "outputPath": "C:\\Users\\Alumno\\Desktop\\login_3.1C\\login_C#\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

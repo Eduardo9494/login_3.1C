@@ -41,3 +41,11 @@ insert into Permisos values ('Create')
 insert into Permisos values ('Read')
 insert into Permisos values ('Update')
 insert into Permisos values ('Delete')
+
+select * from Permisos
+
+select * from Roles_Permisos
+
+
+
+

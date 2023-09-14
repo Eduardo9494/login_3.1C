@@ -69,3 +69,13 @@ create procedure sp_registrar
 as begin
 insert  into Usuarios values (@Nombre , @Apellido , @Correo, @Edad , @Usuario , ENCRYPTBYPASSPHRASE (@Patron , @Contraseña) , @Cod_Rol)
 end
+
+
+
+create procedure sp_login
+@Usuario varchar(50),
+@Contraseña varchar(max),
+@Patron varchar (50)
+as begin
+select * from Usuarios where Usuario=@Usuario and CONVERT(varchar(50) , DECRYPTBYPASSPHRASE(@Patron , Contraseña))= @Contraseña
+end

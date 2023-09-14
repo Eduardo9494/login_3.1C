@@ -57,5 +57,15 @@ insert into Roles_Permisos values (2,2,1)
 insert into Roles_Permisos values (2,3,0)
 insert into Roles_Permisos values (2,4,0)
 
-
-
+create procedure sp_registrar
+@Nombre varchar(50),
+@Apellido varchar(50),
+@Correo varchar(70),
+@Edad int,
+@Usuario varchar(50),
+@Contraseña varchar(max),
+@Cod_Rol int,
+@Patron varchar (50)
+as begin
+insert  into Usuarios values (@Nombre , @Apellido , @Correo, @Edad , @Usuario , ENCRYPTBYPASSPHRASE (@Patron , @Contraseña) , @Cod_Rol)
+end

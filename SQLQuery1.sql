@@ -79,3 +79,14 @@ create procedure sp_login
 as begin
 select * from Usuarios where Usuario=@Usuario and CONVERT(varchar(50) , DECRYPTBYPASSPHRASE(@Patron , Contraseña))= @Contraseña
 end
+
+
+create procedure sp_permisos
+@Cod_Rol int
+as begin
+select Nombre_Permiso , Estado from Roles_Permisos inner join Permisos on Permisos.Cod_permiso=Roles_Permisos.Cod_permiso where Cod_Rol=@Cod_Rol
+end
+
+
+
+

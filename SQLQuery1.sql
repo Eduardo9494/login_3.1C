@@ -47,5 +47,10 @@ select * from Permisos
 select * from Roles_Permisos
 
 
+insert into Roles_Permisos values (1,1,1)
+insert into Roles_Permisos values (1,2,1)
+insert into Roles_Permisos values (1,3,1)
+insert into Roles_Permisos values (1,4,1)
+
 
 
